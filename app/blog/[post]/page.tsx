@@ -237,3 +237,14 @@
 //     </main>
 //   );
 // }
+export default function AboutPage() {
+  return (
+    <main className="min-h-screen flex flex-col items-center justify-center p-8">
+      <h1 className="text-4xl font-bold mb-4">About Us</h1>
+      <p className="text-lg text-gray-700 max-w-xl text-center">
+        Welcome to our website. This is a simple static page built using Next.js
+        with the App Router.
+      </p>
+    </main>
+  );
+}
